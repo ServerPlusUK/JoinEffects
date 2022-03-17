@@ -1,0 +1,19 @@
+# made by serverplus.uk for all client servers
+# use us again, and we'll throw off 10% if you've seen this :)
+
+# the title on join
+title:
+  enabled: true
+  title: "&f&lServer&b&lPlus!"
+  subtitle: "&fWe're awesome :)"
+  fadeIn: 1000 # ms
+  stay: 2000 # ms
+  fadeOut: 500 # ms
+
+sound: # this follows spigot sound enum, see: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+  enabled: true
+  id: "ENTITY_FIREWORK_ROCKET_LAUNCH"
+  chain: # runs a sound a second later
+    enabled: true
+    delay: 1000 # ms
+    id: "ENTITY_FIREWORK_ROCKET_BLAST"

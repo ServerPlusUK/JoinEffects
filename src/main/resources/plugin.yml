@@ -1,0 +1,6 @@
+name: JoinEffects
+version: '${project.version}'
+main: uk.serverplus.joineffects.JoinEffects
+api-version: 1.18
+authors: [ ServerPlus ]
+website: serverplus.uk
